@@ -13,5 +13,8 @@ g++ aestool.cpp -o aestool `pkg-config gtkmm-3.0 --cflags --libs`
 ## FOR RUNNING ONLY (apt)
 ```bash
 sudo apt install gnupg libgtkmm-3.0-1v5
+```
+to run the program use:
+```bash
 ./aestool
 ```
